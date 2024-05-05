@@ -1,0 +1,25 @@
+.texthover {
+    cursor: pointer;
+    transition:  0.3s ease; 
+
+    &:hover {
+        color: orange;
+        scale: 1.5;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navbarcontainer .burger-wrapper {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .navbarcontainer .text-menu {
+      display: none;
+    }
+  
+    .navbarcontainer .burger-wrapper {
+      display: block;
+    }
+  }
