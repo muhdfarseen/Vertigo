@@ -44,9 +44,9 @@ export const Navbar = () => {
           {isMobile && (
             <>
 
-              <Menu trigger="hover" shadow="md" width={200}>
+              <Menu shadow="md" width={200}>
                 <Menu.Target>
-                  <Burger opened={opened} onClick={toggle} onMouseLeave={toggle} onMouseEnter={toggle} />
+                  <Burger opened={opened} onClick={toggle} onMouseLeave={toggle} />
                 </Menu.Target>
 
                 <Menu.Dropdown>
