@@ -46,7 +46,7 @@ export const Navbar = () => {
 
               <Menu trigger="hover" shadow="md" width={200}>
                 <Menu.Target>
-                  <Burger opened={opened} onMouseLeave={toggle} onMouseEnter={toggle} />
+                  <Burger opened={opened} onClick={toggle} onMouseLeave={toggle} onMouseEnter={toggle} />
                 </Menu.Target>
 
                 <Menu.Dropdown>
